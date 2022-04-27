@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../SFAI_Lib/library.h
+
+C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.cpp
+SFAI_Console.h
+C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.h
+library.h
+C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/library.h
+
+C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.h
+

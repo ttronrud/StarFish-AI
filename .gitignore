@@ -1,0 +1,9 @@
+.idea/
+.vs/
+.vscode/
+build*/
+bin/
+obj/
+out/
+gitInfo.h
+build.h

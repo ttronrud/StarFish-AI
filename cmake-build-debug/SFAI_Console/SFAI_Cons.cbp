@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFAI_Cons"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFAI_Lib\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\starfish\;CMake Files\..\..\starfish\vcpkg\;CMake Files\..\..\starfish\vcpkg\installed\;CMake Files\..\..\starfish\vcpkg\installed\x86-windows\;CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\;CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\frugally-deep\;CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\eigen3\;CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\FunctionalPlus\;CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\nlohmann_json\;CMake Files\..\..\starfish\vcpkg\scripts\;CMake Files\..\..\starfish\vcpkg\scripts\buildsystems\;CMake Files\SFAI_Console\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Console"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFAIC">
+				<Option output="C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Console/SFAIC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Console"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 SFAIC"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFAIC/fast">
+				<Option output="C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Console/SFAIC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Console"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 SFAIC/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Console\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.cpp">
+			<Option target="SFAIC"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.h">
+			<Option target="SFAIC"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SFAI_Lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/frugally-deep/frugally-deepConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\frugally-deep\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/frugally-deep/frugally-deepConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\frugally-deep\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/frugally-deep/frugally-deepTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\frugally-deep\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\eigen3\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\eigen3\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\eigen3\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/FunctionalPlus/FunctionalPlusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\FunctionalPlus\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/FunctionalPlus/FunctionalPlusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\FunctionalPlus\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/FunctionalPlus/FunctionalPlusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\FunctionalPlus\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/installed/x86-windows/share/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\installed\x86-windows\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/../../starfish/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\starfish\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SFAI_Console\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
