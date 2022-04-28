@@ -7,3 +7,8 @@ obj/
 out/
 gitInfo.h
 build.h
+*.dll
+*.exe
+*.lib
+*.ilk
+

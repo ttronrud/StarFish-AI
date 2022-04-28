@@ -3,14 +3,16 @@
 
 #include <vector>
 #include <string>
-//If really necessary can include it here
-//#include "C:\Users\ttronrud\starfish\vcpkg\installed\x86-windows\include\fdeep\fdeep.hpp"
 
 class SFAI{
 private:
 public:
     std::string model_name;
+
     std::vector<std::vector<float>> chunks;
+    std::vector<float> result_beats;
+
+    __declspec(dllexport) __stdcall SFAI(std::string new_name);
 
     __declspec(dllexport) void __stdcall set_model_name(std::string new_name);
 
@@ -25,6 +27,12 @@ public:
     __declspec(dllexport) float __stdcall PredictChunk(std::vector<float> inputECGChunk);
 
     __declspec(dllexport) std::vector<float> __stdcall PredictChunks();
+
+    //populate a float pointer with the per-chunk results
+    //populate an int pointer with the number of chunk results
+    __declspec(dllexport) void __stdcall GetResults(float* res, int* N);
+
+    __declspec(dllexport) void __stdcall RESET();
 };
 
 
