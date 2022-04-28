@@ -33,13 +33,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
+  # Include the install script for each subdirectory.
   include("C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Lib/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Console/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

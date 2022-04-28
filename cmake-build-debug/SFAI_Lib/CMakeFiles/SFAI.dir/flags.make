@@ -6,5 +6,5 @@ CXX_DEFINES = -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DSFAI_EXPO
 
 CXX_INCLUDES = -IC:\Users\ttronrud\CLionProjects\SFAI\SFAI_Lib -IC:\Users\ttronrud\starfish\vcpkg\installed\x86-windows\include -IC:\Users\ttronrud\starfish\vcpkg\installed\x86-windows\include\eigen3
 
-CXX_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+CXX_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++14
 

@@ -15,6 +15,10 @@ fdeep/fdeep.hpp
 C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/fdeep/fdeep.hpp
 
 C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/library.h
+vector
+-
+string
+-
 
 C:/Users/ttronrud/starfish/vcpkg/installed/x86-windows/include/Eigen/Core
 src/Core/util/DisableStupidWarnings.h
