@@ -103,12 +103,12 @@ SFAI_Lib\clean: SFAI_Lib\CMakeFiles\SFAI.dir\clean
 SFAI_Lib\CMakeFiles\SFAI.dir\all:
 	$(MAKE) $(MAKESILENT) -f SFAI_Lib\CMakeFiles\SFAI.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Lib\CMakeFiles\SFAI.dir\depend
 	$(MAKE) $(MAKESILENT) -f SFAI_Lib\CMakeFiles\SFAI.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Lib\CMakeFiles\SFAI.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target SFAI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target SFAI"
 .PHONY : SFAI_Lib\CMakeFiles\SFAI.dir\all
 
 # Build rule for subdir invocation for target.
 SFAI_Lib\CMakeFiles\SFAI.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) SFAI_Lib\CMakeFiles\SFAI.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles 0
 .PHONY : SFAI_Lib\CMakeFiles\SFAI.dir\rule
@@ -129,12 +129,12 @@ SFAI_Lib\CMakeFiles\SFAI.dir\clean:
 SFAI_Console\CMakeFiles\SFAIC.dir\all: SFAI_Lib\CMakeFiles\SFAI.dir\all
 	$(MAKE) $(MAKESILENT) -f SFAI_Console\CMakeFiles\SFAIC.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Console\CMakeFiles\SFAIC.dir\depend
 	$(MAKE) $(MAKESILENT) -f SFAI_Console\CMakeFiles\SFAIC.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Console\CMakeFiles\SFAIC.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target SFAIC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target SFAIC"
 .PHONY : SFAI_Console\CMakeFiles\SFAIC.dir\all
 
 # Build rule for subdir invocation for target.
 SFAI_Console\CMakeFiles\SFAIC.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) SFAI_Console\CMakeFiles\SFAIC.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles 0
 .PHONY : SFAI_Console\CMakeFiles\SFAIC.dir\rule

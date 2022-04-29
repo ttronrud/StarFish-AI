@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/SFAI_CAPI.cpp" "C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Lib/CMakeFiles/SFAI.dir/SFAI_CAPI.cpp.obj"
   "C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/library.cpp" "C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug/SFAI_Lib/CMakeFiles/SFAI.dir/library.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

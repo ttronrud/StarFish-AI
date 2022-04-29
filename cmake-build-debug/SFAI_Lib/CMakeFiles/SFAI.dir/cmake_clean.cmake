@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SFAI.dir/SFAI_CAPI.cpp.obj"
   "CMakeFiles/SFAI.dir/library.cpp.obj"
   "SFAI.dll"
   "SFAI.dll.manifest"

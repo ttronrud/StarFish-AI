@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../SFAI_Lib/SFAI_CAPI.h
+string
+-
+vector
+-
+iostream
+-
+library.h
+../SFAI_Lib/library.h
+
 ../SFAI_Lib/library.h
 vector
 -
@@ -17,8 +27,8 @@ SFAI_Console.h
 C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.h
 
 C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.h
-library.h
-C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/library.h
+SFAI_CAPI.h
+C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_CAPI.h
 vector
 -
 iostream

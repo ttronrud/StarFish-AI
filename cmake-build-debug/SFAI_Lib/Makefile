@@ -133,6 +133,36 @@ SFAI\fast:
 	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
 .PHONY : SFAI\fast
 
+SFAI_CAPI.obj: SFAI_CAPI.cpp.obj
+.PHONY : SFAI_CAPI.obj
+
+# target to build an object file
+SFAI_CAPI.cpp.obj:
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f SFAI_Lib\CMakeFiles\SFAI.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.obj
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
+.PHONY : SFAI_CAPI.cpp.obj
+
+SFAI_CAPI.i: SFAI_CAPI.cpp.i
+.PHONY : SFAI_CAPI.i
+
+# target to preprocess a source file
+SFAI_CAPI.cpp.i:
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f SFAI_Lib\CMakeFiles\SFAI.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.i
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
+.PHONY : SFAI_CAPI.cpp.i
+
+SFAI_CAPI.s: SFAI_CAPI.cpp.s
+.PHONY : SFAI_CAPI.s
+
+# target to generate assembly for a file
+SFAI_CAPI.cpp.s:
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f SFAI_Lib\CMakeFiles\SFAI.dir\build.make /nologo -$(MAKEFLAGS) SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.s
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
+.PHONY : SFAI_CAPI.cpp.s
+
 library.obj: library.cpp.obj
 .PHONY : library.obj
 
@@ -172,6 +202,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SFAI
+	@echo ... SFAI_CAPI.obj
+	@echo ... SFAI_CAPI.i
+	@echo ... SFAI_CAPI.s
 	@echo ... library.obj
 	@echo ... library.i
 	@echo ... library.s

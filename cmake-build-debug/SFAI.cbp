@@ -148,6 +148,12 @@
 		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Console/SFAI_Console.h">
 			<Option target="SFAIC"/>
 		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/SFAI_CAPI.cpp">
+			<Option target="SFAI"/>
+		</Unit>
+		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/SFAI_CAPI.h">
+			<Option target="SFAI"/>
+		</Unit>
 		<Unit filename="C:/Users/ttronrud/CLionProjects/SFAI/SFAI_Lib/library.cpp">
 			<Option target="SFAI"/>
 		</Unit>

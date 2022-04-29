@@ -80,17 +80,44 @@ SFAI_Lib\CMakeFiles\SFAI.dir\library.cpp.s: cmake_force
 <<
 	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
 
+SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.obj: SFAI_Lib\CMakeFiles\SFAI.dir\flags.make
+SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.obj: ..\SFAI_Lib\SFAI_CAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SFAI_Lib/CMakeFiles/SFAI.dir/SFAI_CAPI.cpp.obj"
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
+	C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SFAI.dir\SFAI_CAPI.cpp.obj /FdCMakeFiles\SFAI.dir\ /FS -c C:\Users\ttronrud\CLionProjects\SFAI\SFAI_Lib\SFAI_CAPI.cpp
+<<
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
+
+SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFAI.dir/SFAI_CAPI.cpp.i"
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
+	C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ttronrud\CLionProjects\SFAI\SFAI_Lib\SFAI_CAPI.cpp
+<<
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
+
+SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFAI.dir/SFAI_CAPI.cpp.s"
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
+	C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SFAI.dir\SFAI_CAPI.cpp.s /c C:\Users\ttronrud\CLionProjects\SFAI\SFAI_Lib\SFAI_CAPI.cpp
+<<
+	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug
+
 # Object files for target SFAI
 SFAI_OBJECTS = \
-"CMakeFiles\SFAI.dir\library.cpp.obj"
+"CMakeFiles\SFAI.dir\library.cpp.obj" \
+"CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.obj"
 
 # External object files for target SFAI
 SFAI_EXTERNAL_OBJECTS =
 
 SFAI_Lib\SFAI.dll: SFAI_Lib\CMakeFiles\SFAI.dir\library.cpp.obj
+SFAI_Lib\SFAI.dll: SFAI_Lib\CMakeFiles\SFAI.dir\SFAI_CAPI.cpp.obj
 SFAI_Lib\SFAI.dll: SFAI_Lib\CMakeFiles\SFAI.dir\build.make
 SFAI_Lib\SFAI.dll: SFAI_Lib\CMakeFiles\SFAI.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library SFAI.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library SFAI.dll"
 	cd C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib
 	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_dll --intdir=CMakeFiles\SFAI.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\SFAI.dir\objects1.rsp @<<
  /out:SFAI.dll /implib:SFAI.lib /pdb:C:\Users\ttronrud\CLionProjects\SFAI\cmake-build-debug\SFAI_Lib\SFAI.pdb /dll /version:0.0 /machine:X86 /debug /INCREMENTAL  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
