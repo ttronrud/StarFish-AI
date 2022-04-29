@@ -11,7 +11,7 @@
 #include "library.h"
 
 extern "C" {
-__declspec(dllexport) void __stdcall CalcAll(char* model_name, float* all_chunks, int N, int N_chunks, float* ret_vals, int* N_ret_vals);
+__declspec(dllexport) void __stdcall CalcAll(char* model_name, float* all_chunks, int N_chunks, float* ret_vals, int* N_ret_vals);
 };
 
 

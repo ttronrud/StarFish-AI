@@ -59,7 +59,7 @@ int main(int argc, char * argv[])
     float test_results[64]; //should be higher lel
     int N_tst_res = 0;
     std::cout << chunks.size() << std::endl;
-    CalcAll( "fdeep_model.json",chunk.data(),chunk.size(),1,test_results, &N_tst_res);
+    CalcAll( "fdeep_model.json",chunk.data(),1,test_results, &N_tst_res);
     int total_est_beats = 0;
     for(int i = 0; i < N_tst_res; i++)
     {

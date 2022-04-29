@@ -5,7 +5,7 @@
 
 #define CHUNK_SIZE 2160
 
-extern "C" __declspec(dllexport) void __stdcall CalcAll(char* model_name, float* all_chunks, int N, int N_chunks, float* ret_vals, int* N_ret_vals)
+extern "C" __declspec(dllexport) void __stdcall CalcAll(char* model_name, float* all_chunks, int N_chunks, float* ret_vals, int* N_ret_vals)
 {
     std::cout << model_name << std::endl;
     float tmp[CHUNK_SIZE];
