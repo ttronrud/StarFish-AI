@@ -10,7 +10,8 @@ Instructions:
 3. Install the fdeep package with: vcpkg install frugally-deep
 3.5: Default is x86!! Make sure your project is also x86
 4. Point either VS or CLion (or whatever IDE) to the CMake toolchain file: [vcpkg install]\scripts\buildsystems\vcpkg.cmake
-5. It should work now!
+5. It should compile now!
+6. For execution, move fdeep_model.json and test_dat_good.txt to the output directory (where SFAIC.exe is located)
 
 SFAI Library:
 The SFAI library consists of the library.cpp/h, and SFAI_CAPI.cpp/h. The CAPI class exposes the "CalcAll" method

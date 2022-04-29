@@ -34,7 +34,7 @@ int main(int argc, char * argv[])
 {
     float SEC_PER_CHUNK = 6;
     std::vector<std::string> fnames;
-    std::string fname = "test_dat_bad.txt";
+    std::string fname = "test_dat_good.txt";
     //get first CL arg as filename
     if(argc > 1)
     {
@@ -64,7 +64,7 @@ int main(int argc, char * argv[])
     for(int i = 0; i < N_tst_res; i++)
     {
         std::cout << "Chunk " << i << " beats: " << test_results[i] << "\tHR est: " << 60*test_results[i]/SEC_PER_CHUNK <<std::endl;
-        total_est_beats += test_results[i];
+        total_est_beats += round(test_results[i]);
     }
     std::cout << "Total est. beats: " << total_est_beats << std::endl;
     std::cout << "HR est: " << 60*total_est_beats/(N_tst_res*SEC_PER_CHUNK) << std::endl;
