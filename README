@@ -1,0 +1,13 @@
+SFAI Library and Console Program:
+
+This project is split into two segments - the SFAI DLL and the SFAIC console app used to test the library.
+
+This project requires the frugally-deep project downloaded from vcpkg.
+
+Instructions:
+1. Download the vcpkg repo with git clone https://github.com/microsoft/vcpkg
+2. Run the bootstrap-vcpkg.bat file inside the vcpkg directory
+3. Install the fdeep package with: vcpkg install frugally-deep
+3.5: Default is x86!! Make sure your project is also x86
+4. Point either VS or CLion (or whatever IDE) to the CMake toolchain file: [vcpkg install]\scripts\buildsystems\vcpkg.cmake
+5. It should work now!
