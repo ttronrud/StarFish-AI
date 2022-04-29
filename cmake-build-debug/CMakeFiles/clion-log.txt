@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=C:\Users\ttronrud\starfish\vcpkg\scripts\buildsystems\vcpkg.cmake -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\ttronrud\CLionProjects\SFAI
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/ttronrud/CLionProjects/SFAI/cmake-build-debug
