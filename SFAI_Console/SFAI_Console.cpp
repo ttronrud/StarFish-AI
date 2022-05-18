@@ -4,6 +4,8 @@
 
 #include "SFAI_Console.h"
 
+#DEFINE MIN_RR_INTERVAL_MS 300
+
 std::vector<float> load_ecg(std::string fname)
 {
     std::vector<float> tst_arr;
