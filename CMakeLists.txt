@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
 project ("SFAI")
 set(CMAKE_CXX_STANDARD 14)
-
 add_subdirectory(SFAI_Lib)
 add_subdirectory(SFAI_Console)
