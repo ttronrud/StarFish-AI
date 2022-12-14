@@ -1,6 +1,7 @@
 SFAI Library and Console Program:
 
-This project is split into two segments - the SFAI DLL and the SFAIC console app used to test the library.
+This project is split into three segments - the ipynb used to generate the trained network model,
+the SFAI DLL, and the SFAIC console app used to test the library.
 
 This project requires the frugally-deep project downloaded from vcpkg.
 
@@ -11,7 +12,9 @@ Instructions:
 3.5: Default is x86!! Make sure your project is also x86
 4. Point either VS or CLion (or whatever IDE) to the CMake toolchain file: [vcpkg install]\scripts\buildsystems\vcpkg.cmake
 5. It should compile now!
-6. For execution, move fdeep_model.json and test_dat_good.txt to the output directory (where SFAIC.exe is located)
+6. Use the DeepQRS notebook to train and save the model (if you have ECG data)
+7. Inside frugally deep, use frugally-deep/keras_export/convert_model.py to generate the json model
+8. For execution, move fdeep_model.json and test_dat_good.txt to the output directory (where SFAIC.exe is located)
 
 SFAI Library:
 The SFAI library consists of the library.cpp/h, and SFAI_CAPI.cpp/h. The CAPI class exposes the "CalcAll" method
